@@ -7,7 +7,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-
+    //异常处理
     //https://jira.spring.io/browse/SPR-14651
     //4.3.5 supports RedirectAttributes redirectAttributes
     @ExceptionHandler(MultipartException.class)
